@@ -54,7 +54,7 @@ export default function App() {
       <div className="theme-block">
         {modal && <Modal />}
         <Header setInputValue={setInputValue} inputValue={inputValue}/>
-        {loading ? <p>Loading....</p> : (
+        {loading ? <p>Loading...</p> : (
         <Routes>
           <Route path='/' element={<CardList data={characters}/>} />
           <Route path='/favourites' element={<Favourites />}/>
