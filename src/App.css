@@ -1,0 +1,207 @@
+button {
+    margin: 20px 0px;
+    margin-right: 10px;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: Inter;
+    width: 100px;
+}
+
+button:hover {
+  opacity: 50%;
+}
+
+.link a {
+  color: black;
+  font-family: Inter;
+  transition: 0.3s;
+}
+
+.link a:hover {
+  opacity: 50%;
+}
+
+.add-btn {
+  width: 100%;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffb32c;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  opacity: 50%;
+}
+
+.theme-block {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: #242424;
+}
+
+.light, .dark {
+  padding: 20px 0px;
+  min-height: 100vh;
+}
+
+.dark .card-block div:first-child {
+  background-color: #3a3a3a;
+  color: white;
+  box-shadow: 2px -1px 11px 12px rgba(94, 94, 94, 0.2);
+}
+
+.dark .cardInfoBlock div:first-child {
+  background-color: #3a3a3a;
+  color: white;
+  box-shadow: 2px -1px 11px 12px rgba(94, 94, 94, 0.2);
+}
+
+.dark .link a {
+  color: white;
+}
+
+.dark p {
+  color: white
+}
+
+.active {
+  opacity: 100%!important;
+}
+
+.card-page .add-btn {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.favourite-icon {
+  background-image: url('./assets/favorite.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -15px;
+  right: -20px;
+  border-radius: 30px;
+}
+
+.card-block {
+  position: relative;
+}
+
+.favourites {
+  background-image: url('./assets/favorite.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.favourite-block:hover {
+  opacity: 50%;
+}
+
+.favourite-block {
+  position: relative;
+}
+
+.favourite-block p {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  background: white;
+  color: black;
+  padding: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
+
+.card-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-block .add-btn {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.light-mode, .dark-mode {
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  transition: 0.5s all;
+  opacity: 20%;
+}
+
+.light-mode:hover, .dark-mode:hover {
+  opacity: 60%;
+}
+
+.light-mode {
+  background-image: url('./assets/sun.png');
+  width: 35px;
+  height: 35px;
+}
+
+.dark-mode {
+  background-image: url('./assets/moon.png');
+  width: 30px;
+  height: 30px;
+}
+
+.modal {
+  position: fixed;
+  min-height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(20, 20, 20, 0.7);
+  z-index: 100;
+}
+
+.modal-content {
+  height: 300px;
+  width: 450px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.dark .modal-content p {
+  color: white;
+}
+
+.modal-content .add-btn {
+  width: 100px;
+}
+
+.dark .modal-content {
+  background-color: #3a3a3a;
+}

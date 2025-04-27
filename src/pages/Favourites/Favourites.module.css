@@ -1,0 +1,17 @@
+.delete-btn {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+delete-btn:hover {
+    opacity: 50%;
+}

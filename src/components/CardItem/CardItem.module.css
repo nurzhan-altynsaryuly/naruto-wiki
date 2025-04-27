@@ -1,0 +1,20 @@
+.card {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: Inter;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px -1px 11px 12px rgba(34, 60, 80, 0.2);
+    color: rgb(34, 34, 34);
+    height: 230px;
+  }
+  
+  .card:hover {
+    opacity: 60%;
+  }
+  
+  .card img {
+    object-fit: contain;
+  }

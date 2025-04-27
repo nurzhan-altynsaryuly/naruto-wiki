@@ -1,0 +1,28 @@
+.cardInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 2px -1px 11px 12px rgba(34, 60, 80, 0.2);
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 30px;
+    width: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .cardInfo:hover {
+    opacity: 80%;
+  }
+  
+  .cardInfo p {
+    font-family: Inter;
+  }
+  
+  .cardInfo .info p:first-child {
+    font-weight: bold;
+  }
+
+  .cardInfo img {
+    border-radius: 5px;
+  }
